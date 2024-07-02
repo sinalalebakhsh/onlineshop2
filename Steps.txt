@@ -5,3 +5,4 @@ add in config/settings.py -> ALLOWED_HOSTS = ['0.0.0.0',]
 accounts/models.py -> from django.contrib.auth.models import AbstractUser
 pip install --upgrade pipenv
 python3 -m pip install --upgrade pip
+sudo add-apt-repository ppa:deadsnakes/ppa
