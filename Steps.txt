@@ -1,3 +1,4 @@
 docker-compose up --build
 docker-compose exec web python manage.py startapp accounts
 add in config/settings.py -> INSTALLED_APPS ['accounts',]
+add in config/settings.py -> ALLOWED_HOSTS = ['0.0.0.0',]
