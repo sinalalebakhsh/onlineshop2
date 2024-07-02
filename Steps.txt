@@ -2,3 +2,6 @@ docker-compose up --build
 docker-compose exec web python manage.py startapp accounts
 add in config/settings.py -> INSTALLED_APPS ['accounts',]
 add in config/settings.py -> ALLOWED_HOSTS = ['0.0.0.0',]
+accounts/models.py -> from django.contrib.auth.models import AbstractUser
+pip install --upgrade pipenv
+python3 -m pip install --upgrade pip
