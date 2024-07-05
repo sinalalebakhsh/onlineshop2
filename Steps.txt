@@ -20,7 +20,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
     Output
     docker-compose version 1.29.2, build 5becea4c
-    
+
 docker-compose up --build
 docker-compose exec web python manage.py startapp accounts
 add in config/settings.py -> INSTALLED_APPS ['accounts',]
@@ -30,3 +30,4 @@ pip install --upgrade pipenv
 python3 -m pip install --upgrade pip
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt install python3.13
+pipenv shell
