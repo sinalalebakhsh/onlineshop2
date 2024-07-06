@@ -30,4 +30,7 @@ pip install --upgrade pipenv
 python3 -m pip install --upgrade pip
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt install python3.13
-pipenv shell
+apt install python3-pip
+pip install --user pipenv
+delete requirements.txt 
+pipenv install
