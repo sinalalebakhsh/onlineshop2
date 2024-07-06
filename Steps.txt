@@ -37,3 +37,4 @@ pipenv install
 pipenv install django
 pipenv requirements > requirements.txt
 pipenv update
+pipenv --venv
