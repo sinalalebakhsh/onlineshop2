@@ -36,3 +36,4 @@ delete requirements.txt
 pipenv install
 pipenv install django
 pipenv requirements > requirements.txt
+pipenv update
