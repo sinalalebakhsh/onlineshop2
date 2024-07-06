@@ -29,7 +29,7 @@ DEBUG = True
 
 
 #################################################################################################
-ALLOWED_HOSTS = ['0.0.0.0', '154.16.16.239'] # Your IP server have to write here
+ALLOWED_HOSTS = ['0.0.0.0',] # Your IP server have to write here
 
 
 # Application definition
